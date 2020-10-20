@@ -144,6 +144,7 @@ def main(feature_torch, feature_label_torch, network, BATCH_SIZE=16, LR=1e-4, EP
     )
 
     print('=== Run RNN problem ===')
+    # (input_dim, n_hidden, n_layers, seq_len, output_dim)
     net_regression = network(n[0], n[1], n[2], n[3], 1)
     optim_regression = optim.Adam(net_regression.parameters(), lr=LR)
     loss_regression = nn.MSELoss()
