@@ -13,6 +13,7 @@ pip install -r requirements.txt
 
 ## Master Thesis
 - Assisted Design of Chemical Structures for Electrolyte Materials in Li-ion Batteries and Properties Prediction via Deep Generative Model
+    - \doi{10.6342/NTU202002354}
 
 ## Reference
 Our implementation is modified on the code from
@@ -21,3 +22,11 @@ Our implementation is modified on the code from
 
 ## Cite
 If our code is useful to you, please cite our thesis
+```
+@mastersthesis{hsieh2020moleculevae,
+	author = {Tung-Ching Hsieh},
+	title = {Assisted Design of Chemical Structures for Electrolyte Materials in Li-ion Batteries and Properties Prediction via Deep Generative Model},
+	year = {2020},
+	school = {National Taiwan University},
+}
+```
